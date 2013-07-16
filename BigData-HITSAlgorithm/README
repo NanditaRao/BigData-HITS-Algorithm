@@ -1,0 +1,13 @@
+We used Amazon EMR to complete this assignment.
+
+Step 1: We preprocessed the supllied data such that just the "From" and the "To" lines from each file got stored into a single file. We called this file "All data".
+
+Step 2: We ran the Map- reduce task to get the number for all the email id's that appeared in From of all the emails(authorities) present in the dataset.
+
+Step 3: We ran the Map - reduce task to get the number for all the email id's that appeared in To of all the emails(hubs) present in the dataset. 
+
+We followed the word count model for both these tasks.
+
+Step 4: We concatenated the results that were obtained in parts using the cat command on Hadoop.
+
+Step 5: The obtained results are present in the output directory.
